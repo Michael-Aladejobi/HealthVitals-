@@ -42,7 +42,7 @@ onAuthStateChanged(auth, (user) => {
 function updateUserProfile(user) {
     const userEmail = user.email; // Get user email
 
-    document.getElementById(
-        "logged-in-as"
-    ).innerHTML = ` LoggedIn as: <br><small> ${userEmail} </small>`; // Update logged-in user display
+    // document.getElementById(
+    //     "logged-in-as"
+    // ).innerHTML = ` LoggedIn as: <br><small> ${userEmail} </small>`; // Update logged-in user display
 }
